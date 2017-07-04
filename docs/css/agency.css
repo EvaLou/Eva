@@ -8,10 +8,10 @@ body {
   font-family: "Roboto Slab", "Helvetica Neue", Helvetica, Arial, sans-serif;
 }
 .text-muted {
-  color: #777777;
+  color: #FFFFFF;
 }
 .text-primary {
-  color: #fed136;
+  color: #FFFFFF;
 }
 p {
   font-size: 14px;
@@ -28,13 +28,13 @@ a.active {
   outline: none;
 }
 a {
-  color: #fed136;
+  color: #FFFFFF;
 }
 a:hover,
 a:focus,
 a:active,
 a.active {
-  color: #fec503;
+  color: #FFFFFF;
 }
 h1,
 h2,
@@ -101,13 +101,13 @@ fieldset[disabled] .btn-primary.active {
 }
 .btn-xl {
   color: white;
-  background-color: #fed136;
-  border-color: #fed136;
-  font-family: "Montserrat", "Helvetica Neue", Helvetica, Arial, sans-serif;
+  background-color: #transparent;
+  border-color: #transparent;
+  font-family: "Architects Daughter", "Helvetica Neue", Helvetica, Arial, sans-serif;
   text-transform: uppercase;
   font-weight: 700;
   border-radius: 3px;
-  font-size: 18px;
+  font-size: 30px;
   padding: 20px 40px;
 }
 .btn-xl:hover,
@@ -116,8 +116,8 @@ fieldset[disabled] .btn-primary.active {
 .btn-xl.active,
 .open .dropdown-toggle.btn-xl {
   color: white;
-  background-color: #fec503;
-  border-color: #f6bf01;
+  background-color: #42BEFC;
+  border-color: transparent;
 }
 .btn-xl:active,
 .btn-xl.active,
@@ -151,14 +151,15 @@ fieldset[disabled] .btn-xl.active {
   border-color: transparent;
 }
 .navbar-custom .navbar-brand {
-  color: #fed136;
-  font-family: "Kaushan Script", "Helvetica Neue", Helvetica, Arial, cursive;
+  color: #FFFFFF;
+  font-family: "Patua one", "Helvetica Neue", Helvetica, Arial, cursive;
+
 }
 .navbar-custom .navbar-brand:hover,
 .navbar-custom .navbar-brand:focus,
 .navbar-custom .navbar-brand:active,
 .navbar-custom .navbar-brand.active {
-  color: #fec503;
+  color: #42BEFC;
 }
 .navbar-custom .navbar-collapse {
   border-color: rgba(255, 255, 255, 0.02);
@@ -184,7 +185,7 @@ fieldset[disabled] .btn-xl.active {
 }
 .navbar-custom .nav li a:hover,
 .navbar-custom .nav li a:focus {
-  color: #fed136;
+  color: #42BEFC;
   outline: none;
 }
 .navbar-custom .navbar-nav > .active > a {
@@ -218,7 +219,7 @@ fieldset[disabled] .btn-xl.active {
 }
 @media (min-width: 768px) {
   .navbar-custom.affix {
-    background-color: #222222;
+    background-color: transparent;
     padding: 10px 0;
   }
   .navbar-custom.affix .navbar-brand {
@@ -235,7 +236,7 @@ header {
   background-size: cover;
   -o-background-size: cover;
   text-align: center;
-  color: black;
+  color: #FFFFFF;
 }
 header .intro-text {
   padding-top: 100px;
@@ -269,7 +270,7 @@ header .intro-text .intro-heading {
     margin-bottom: 25px;
   }
   header .intro-text .intro-heading {
-    font-family: "Montserrat", "Helvetica Neue", Helvetica, Arial, sans-serif;
+    font-family: "Architects Daughter", "Helvetica Neue", Helvetica, Arial, sans-serif; cursive;
     text-transform: uppercase;
     font-weight: 700;
     font-size: 75px;
@@ -729,7 +730,7 @@ ul.social-buttons li a:active {
 }
 ::-moz-selection {
   text-shadow: none;
-  background: #fed136;
+  background: #FFFFFF;
 }
 ::selection {
   text-shadow: none;
