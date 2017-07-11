@@ -8,13 +8,13 @@ body {
   font-family: "Roboto Slab", "Helvetica Neue", Helvetica, Arial, sans-serif;
 }
 .text-muted {
-  color: #FFFFFF;
+  color: #black;
 }
 .text-primary {
   color: #FFFFFF;
 }
 p {
-  font-size: 14px;
+  font-size: 15px;
   line-height: 1.75;
 }
 p.large {
@@ -191,12 +191,12 @@ fieldset[disabled] .btn-xl.active {
 .navbar-custom .navbar-nav > .active > a {
   border-radius: 0;
   color: white;
-  background-color: #fed136;
+  background-color: #42BEFC;
 }
 .navbar-custom .navbar-nav > .active > a:hover,
 .navbar-custom .navbar-nav > .active > a:focus {
   color: white;
-  background-color: #fec503;
+  background-color: #42BEFC;
 }
 @media (min-width: 768px) {
   .navbar-custom {
@@ -265,7 +265,7 @@ header .intro-text .intro-heading {
   header .intro-text .intro-lead-in {
     font-family: "Droid Serif", "Helvetica Neue", Helvetica, Arial, sans-serif;
     font-style: italic;
-    font-size: 40px;
+    font-size: 60px;
     line-height: 40px;
     margin-bottom: 25px;
   }
@@ -273,7 +273,7 @@ header .intro-text .intro-heading {
     font-family: "Architects Daughter", "Helvetica Neue", Helvetica, Arial, sans-serif; cursive;
     text-transform: uppercase;
     font-weight: 700;
-    font-size: 75px;
+    font-size: 100px;
     line-height: 75px;
     margin-bottom: 50px;
   }
