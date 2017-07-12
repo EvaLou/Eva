@@ -100,7 +100,7 @@ fieldset[disabled] .btn-primary.active {
   background-color: white;
 }
 .btn-xl {
-  color: white;
+  color: #000000;
   background-color: #transparent;
   border-color: #transparent;
   font-family: "Architects Daughter", "Helvetica Neue", Helvetica, Arial, sans-serif;
@@ -151,7 +151,7 @@ fieldset[disabled] .btn-xl.active {
   border-color: transparent;
 }
 .navbar-custom .navbar-brand {
-  color: #FFFFFF;
+  color: #000000;
   font-family: "Patua one", "Helvetica Neue", Helvetica, Arial, cursive;
 
 }
@@ -159,7 +159,7 @@ fieldset[disabled] .btn-xl.active {
 .navbar-custom .navbar-brand:focus,
 .navbar-custom .navbar-brand:active,
 .navbar-custom .navbar-brand.active {
-  color: #42BEFC;
+  color: #000000;
 }
 .navbar-custom .navbar-collapse {
   border-color: rgba(255, 255, 255, 0.02);
@@ -200,7 +200,7 @@ fieldset[disabled] .btn-xl.active {
 }
 @media (min-width: 768px) {
   .navbar-custom {
-    background-color: transparent;
+    background-color: #42BEFC;
     padding: 25px 0;
     -webkit-transition: padding 0.3s;
     -moz-transition: padding 0.3s;
@@ -208,7 +208,7 @@ fieldset[disabled] .btn-xl.active {
     border: none;
   }
   .navbar-custom .navbar-brand {
-    font-size: 2em;
+    font-size: 3em;
     -webkit-transition: all 0.3s;
     -moz-transition: all 0.3s;
     transition: all 0.3s;
@@ -236,7 +236,7 @@ header {
   background-size: cover;
   -o-background-size: cover;
   text-align: center;
-  color: #FFFFFF;
+  color: #000000;
 }
 header .intro-text {
   padding-top: 100px;
@@ -273,8 +273,8 @@ header .intro-text .intro-heading {
     font-family: "Architects Daughter", "Helvetica Neue", Helvetica, Arial, sans-serif; cursive;
     text-transform: uppercase;
     font-weight: 700;
-    font-size: 100px;
-    line-height: 75px;
+    font-size: 180px;
+    line-height: 200px;
     margin-bottom: 50px;
   }
 }
@@ -314,7 +314,7 @@ section h3.section-subheading {
   margin: 0 auto;
 }
 #portfolio .portfolio-item .portfolio-link .portfolio-hover {
-  background: rgba(254, 209, 54, 0.9);
+  background: #42BEFC;
   position: absolute;
   width: 100%;
   height: 100%;
@@ -422,7 +422,7 @@ section h3.section-subheading {
   height: 80px;
   position: absolute;
   z-index: 100;
-  background-color: #fed136;
+  background-color: #42BEFC;
   color: white;
   border-radius: 100%;
   border: 7px solid #f1f1f1;
